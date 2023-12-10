@@ -6,7 +6,7 @@ public class Solution {
 
     }
 
-    public String largestNumber(int[] nums)  {
+    public String largestNumber(int[] nums) {
         //修改为属性length
         int n = nums.length;
         // 转换成包装类型，以便传入 Comparator 对象（此处为 lambda 表达式）
