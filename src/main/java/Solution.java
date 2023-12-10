@@ -12,7 +12,7 @@ public class Solution {
         // 转换成包装类型，以便传入 Comparator 对象（此处为 lambda 表达式）
         Integer[] numsArr = new Integer[n];
         //数组引用为[]
-        for (int i = 0; i < n; i++) {
+        for (int i = 0; i < n; i++)  {
             numsArr[i] = nums[i];
         }
         //防止乘法越界，修改排序方法
